@@ -1,0 +1,19 @@
+/* You can add global styles to this file, and also import other style files */
+* {
+    font-family: Roboto, Helvetica, sans-serif;
+  }
+
+button {
+    border: 1px solid white;
+    padding: 8px 16px;
+    font-weight: 600;
+    color: white;
+    background-color: salmon;
+    
+}
+
+button:hover {
+    color: salmon;
+    border: 1px solid salmon;
+    background-color: white;
+}
