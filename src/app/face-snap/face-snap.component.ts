@@ -1,5 +1,5 @@
-import { ThrowStmt } from '@angular/compiler';
-import { Component, OnInit  } from '@angular/core';
+import { Component, OnInit, Input  } from '@angular/core';
+import { FaceSnap } from '../models/face-snap.model';
 
 @Component({
   selector: 'app-face-snap',
@@ -7,6 +7,8 @@ import { Component, OnInit  } from '@angular/core';
   styleUrls: ['./face-snap.component.scss']
 })
 export class FaceSnapComponent implements OnInit{
+  @Input() faceSnap!: FaceSnap;
+
   title!: string;
   description!: string;
   creationDate!: Date;
