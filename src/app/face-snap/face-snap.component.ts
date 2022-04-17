@@ -12,6 +12,7 @@ export class FaceSnapComponent implements OnInit{
   creationDate!: Date;
   snaps!: number;
   imageUrl!: string;
+  buttonText!:string;
 
   ngOnInit(): void {
       this.title = "Gandalf";
@@ -19,9 +20,17 @@ export class FaceSnapComponent implements OnInit{
       this.creationDate = new Date();
       this.snaps = 6;
       this.imageUrl = "assets/gandalf.png"
+      this.buttonText= "Like";
   }
 
-  onAddSnap(){
-    this.snaps++;
+  onSnap(){
+      if(this.buttonText === "Like") {
+        this.snaps++;
+        this.buttonText= "Dislike";
+      } else {
+        this.buttonText= "Like";
+        this.snaps--;
+    }
   }
+
 }
