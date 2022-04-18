@@ -21,7 +21,7 @@ export class FaceSnapComponent implements OnInit{
       } else {
         this.buttonText= "Like";
         this.faceSnap.snaps--;
-    }
+    } 
   }
 
 }
