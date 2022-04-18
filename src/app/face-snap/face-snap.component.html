@@ -1,8 +1,8 @@
 <div class="face-snap-component">
-    <h2>{{ title }}</h2>
-    <img [src]="imageUrl" [alt]="title">
-    <p>mis en ligne le {{ creationDate }}</p>
-    <p>{{ description }}</p>
+    <h2>{{ faceSnap.title }}</h2>
+    <img [src]="faceSnap.imageUrl" [alt]="faceSnap.title">
+    <p>mis en ligne le {{ faceSnap.creationDate }}</p>
+    <p>{{ faceSnap.description }}</p>
     <button (click)="onSnap()">{{ buttonText }}</button>
-    <p>{{ snaps }}</p> 
+    <p>{{ faceSnap.snaps }}</p> 
 </div>
