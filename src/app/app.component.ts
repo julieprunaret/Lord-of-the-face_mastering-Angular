@@ -12,27 +12,28 @@ export class AppComponent implements OnInit{
   mySnap3!: FaceSnap;
 
   ngOnInit(){
-    this.mySnap1 = new FaceSnap(
-      "Gandalf",
-      "Un magicien aussi sympathique que puissant",
-      "assets/gandalf.png",
-      new Date(),
-      0
-    ),
-    this.mySnap2 = new FaceSnap(
-      "Sam",
-      "Le véritable héro du Seigneur des Anneaux",
-      "assets/sam.png",
-      new Date(),
-      0
-    ),
-    this.mySnap3 = new FaceSnap(
-      "Gollum",
-      "un personnage \"2 en 1\"",
-      "assets/gollum.png",
-      new Date(),
-      0
-    )
-
+    this.mySnap1 = {
+      title: "Gandalf",
+      description: "Un magicien aussi sympathique que puissant",
+      imageUrl: "assets/gandalf.png",
+      creationDate: new Date(),
+      snaps: 0,
+      location: "Fondcombe",
+    };
+    this.mySnap2 = {
+      title: "Sam",
+      description: "Le véritable héro du Seigneur des Anneaux",
+      imageUrl: "assets/sam.png",
+      creationDate: new Date(),
+      snaps: 0
+    };
+    this.mySnap3 = {
+      title: "Gollum",
+      description: "un personnage \"2 en 1\"",
+      imageUrl: "assets/gollum.png",
+      creationDate: new Date(),
+      snaps: 0,
+      location: "Mordor",
+    }
   }
 }
