@@ -1,9 +1,9 @@
 <div class="face-snap-component" [ngClass]="{'face-snap-component-liked': buttonText === 'Dislike'}">
-    <h2>{{ faceSnap.title }}</h2>
+    <h2>{{ faceSnap.title | uppercase }}</h2>
     <img [src]="faceSnap.imageUrl" [alt]="faceSnap.title">
     <p>mis en ligne le {{ faceSnap.creationDate }}</p>
     <p>{{ faceSnap.description }}</p>
-    <p *ngIf="faceSnap.location">{{ faceSnap.location }}</p>
+    <p *ngIf="faceSnap.location">{{ faceSnap.location | titlecase }}</p>
     <button (click)="onSnap()">{{ buttonText }}</button>
     <p>
         <img src="../assets/like.svg" alt="like" class="icon"><span [ngStyle]="{ color:'rgb(0,'+  faceSnap.snaps * 2 +', 0)' }">{{ faceSnap.snaps }}</span></p> 
