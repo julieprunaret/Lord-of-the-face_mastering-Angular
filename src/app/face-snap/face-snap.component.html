@@ -5,5 +5,6 @@
     <p>{{ faceSnap.description }}</p>
     <p *ngIf="faceSnap.location">{{ faceSnap.location }}</p>
     <button (click)="onSnap()">{{ buttonText }}</button>
-    <p>{{ faceSnap.snaps }}</p> 
+    <p>
+        <img src="../assets/like.svg" alt="like" class="icon"><span [ngStyle]="{ color:'rgb(0,'+  faceSnap.snaps * 2 +', 0)' }">{{ faceSnap.snaps }}</span></p> 
 </div>
