@@ -4,7 +4,9 @@
     <p  class="face-snap_date">mis en ligne le {{ faceSnap.creationDate | date: 'dd MMMM, à HH:mm' }}</p>
     <p>{{ faceSnap.description }}</p>
     <p *ngIf="faceSnap.location">{{ faceSnap.location | titlecase }}</p>
-    <button (click)="onSnap()">{{ buttonText }}</button>
+    <app-button [buttonStyle]="buttonStyle"
+                [buttonText]="buttonText"
+                (click)="onSnap()"></app-button>
     <p>
         <img src="../assets/like.svg" alt="like" class="icon"><span [ngStyle]="{ color:'rgb(0,'+  faceSnap.snaps * 2 +', 0)' }">{{ faceSnap.snaps }}</span></p> 
         <p>{{ 4346234.36 | number }}</p>

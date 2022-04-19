@@ -10,7 +10,8 @@ import { FaceSnapsService } from '../services/face-snap.service';
 })
 export class FaceSnapComponent implements OnInit{
   @Input() faceSnap!: FaceSnap;
-  buttonText!:string;
+  buttonText!: string;
+  buttonStyle!: string;
 
   constructor(
     private FaceSnapsService: FaceSnapsService
@@ -18,15 +19,19 @@ export class FaceSnapComponent implements OnInit{
 
   ngOnInit(): void {
       this.buttonText= "Like";
+      this.buttonStyle= "simple-button";
   }
 
-  onSnap(){
+
+  onSnap() {
       if(this.buttonText === "Like") {
         this.FaceSnapsService.snapFaceSnapById(this.faceSnap.id, 'Like');
         this.buttonText= "Dislike";
+        this.buttonStyle= "active-button";
       } else {
         this.buttonText= "Like";
         this.FaceSnapsService.snapFaceSnapById(this.faceSnap.id, 'Dislike');
+        this.buttonStyle= "simple-button";
     } 
   }
 

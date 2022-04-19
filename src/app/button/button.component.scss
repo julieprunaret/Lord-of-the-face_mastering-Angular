@@ -1,0 +1,45 @@
+button {
+    padding: 10px 20px;
+    font-weight: 600;
+    margin: 10px 0;
+    cursor: pointer;
+}
+
+.ghost-button {
+    button {
+        background-color: white;
+        border: 1px solid salmon;
+        color: salmon;
+        }
+    button:hover {
+        background-color: salmon;
+        color: white;
+        border: none;
+    }
+}
+
+.simple-button {
+    button {
+        background-color: salmon;
+        color: white;
+        border: 1px solid white;
+    }
+    button:hover {
+        background-color: white;
+        color: salmon;
+        border: 1px solid salmon;
+    }
+}
+
+.active-button {
+    button {
+        background-color: rgb(61, 143, 61);
+        color: white;
+        border: 1px solid white;
+    }
+    button:hover {
+        background-color: white;
+        color: rgb(61, 143, 61);;
+        border: 1px solid rgb(61, 143, 61);;
+    }
+}
