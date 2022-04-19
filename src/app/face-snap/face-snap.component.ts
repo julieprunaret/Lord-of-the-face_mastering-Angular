@@ -22,12 +22,14 @@ export class FaceSnapComponent implements OnInit{
 
   onSnap(){
       if(this.buttonText === "Like") {
-        this.FaceSnapsService.snapFaceSnapById(this.faceSnap.id);
+        this.FaceSnapsService.snapFaceSnapById(this.faceSnap.id, 'Like');
         this.buttonText= "Dislike";
       } else {
         this.buttonText= "Like";
-        this.faceSnap.snaps--;
+        this.FaceSnapsService.snapFaceSnapById(this.faceSnap.id, 'Dislike');
     } 
   }
+
+  
 
 }

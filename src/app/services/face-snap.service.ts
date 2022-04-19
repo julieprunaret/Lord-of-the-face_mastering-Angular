@@ -35,17 +35,21 @@ export class FaceSnapsService {
         }
       ];
 
-      getAllFaceSnaps(): FaceSnap[] {
-        return this.faceSnaps;
+      getAllFaceSnaps(): FaceSnap[] { //on récupère un tableau de type faceSnaps
+        return this.faceSnaps; // permet dans le contexte d'un serveur de récupérer les données
       }
 
-      snapFaceSnapById(faceSnapId: number): void {
+      getFaceSnapById(faceSnapId: number): FaceSnap {
         const faceSnap = this.faceSnaps.find(faceSnap => faceSnap.id === faceSnapId); // on cherche un faceSnap par son id dans le tableau faceSnaps avec la fonction find()
-        if(faceSnap) {
-          faceSnap.snaps++;
+        if(!faceSnap) {
+          throw new Error('FaceSnap not found !');
         } else {
-          throw new Error('FaceSnap not found !')
+          return faceSnap;
         }
+      }
 
+      snapFaceSnapById(faceSnapId: number, snapType: 'Like' | 'Dislike'): void {
+        const faceSnap = this.getFaceSnapById(faceSnapId); // on cherche un faceSnap par son id dans le tableau faceSnaps avec la fonction find()
+        snapType === 'Like' ? faceSnap.snaps++ : faceSnap.snaps--;
       }
 }
