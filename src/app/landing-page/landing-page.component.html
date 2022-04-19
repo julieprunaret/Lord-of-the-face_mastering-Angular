@@ -1,6 +1,9 @@
 <div class="landing-block">
     <img src="assets/logo.png" alt="Snapface logo">
     <div class="landing-links">
-      <a>Continuer vers Snapface</a>
+      <a routerLink="facesnaps">Continuer vers Snapface</a>
+      <app-button [buttonStyle]="'simple-button'"
+                [buttonText]="'Continuer vers Snapface'"
+                (click)="onContinue()"></app-button>
     </div>
 </div>
