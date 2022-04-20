@@ -1,6 +1,8 @@
-<app-button [buttonStyle]="'ghost-button'"
-            [buttonText]="'Retour'"
-            (click)="onBack()"></app-button>
+<div class="single-face-header">
+    <app-button [buttonStyle]="'ghost-button'"
+    [buttonText]="'Retour'"
+    (click)="onBack()"></app-button>
+</div>
 <div class="face-snap-component" [ngClass]="{'face-snap-component-liked': buttonText === 'Dislike'}">
     <h2>{{ faceSnap.title | uppercase }}</h2>
     <img [src]="faceSnap.imageUrl" [alt]="faceSnap.title">
@@ -12,5 +14,4 @@
                 (click)="onSnap()"></app-button>
     <p>
         <img src="../assets/like.svg" alt="like" class="icon"><span [ngStyle]="{ color:'rgb(0,'+  faceSnap.snaps * 2 +', 0)' }">{{ faceSnap.snaps }}</span></p> 
-        <p>{{ 4346234.36 | number }}</p>
 </div>

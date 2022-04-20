@@ -1,9 +1,8 @@
 export class News {
-    constructor(
-        public newsDate: Date,
-        public newsImageUrl: string,
-        public newsText: string,
-    ){
-
-    }
+    newsId!: number;
+    newsTitle!: string;
+    newsDate!: Date;
+    newsImageUrl!: string;
+    newsDescription!: string;
+    newsLocation?: string;
 }

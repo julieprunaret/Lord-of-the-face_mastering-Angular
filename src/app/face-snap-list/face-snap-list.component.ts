@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { FaceSnap } from '../models/face-snap.model';
 import { FaceSnapsService } from '../services/face-snap.service';
+import { NewsListComponent } from '../news-list/news-list.component';
 
 
 @Component({
@@ -9,7 +10,6 @@ import { FaceSnapsService } from '../services/face-snap.service';
   styleUrls: ['./face-snap-list.component.scss']
 })
 export class FaceSnapListComponent implements OnInit {
-
   faceSnaps!: FaceSnap[];
 
   constructor(

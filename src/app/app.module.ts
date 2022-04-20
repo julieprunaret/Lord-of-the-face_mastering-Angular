@@ -11,6 +11,9 @@ import { AppRoutingModule } from './app-routing.module';
 import { LandingPageComponent } from './landing-page/landing-page.component';
 import { ButtonComponent } from './button/button.component';
 import { SingleFaceSnapComponent } from './single-face-snap/single-face-snap.component';
+import { NewsComponent } from './news/news.component';
+import { NewsListComponent } from './news-list/news-list.component';
+import { SingleNewsComponent } from './single-news/single-news.component';
 
 @NgModule({
   declarations: [
@@ -21,6 +24,9 @@ import { SingleFaceSnapComponent } from './single-face-snap/single-face-snap.com
     LandingPageComponent,
     ButtonComponent,
     SingleFaceSnapComponent,
+    NewsComponent,
+    NewsListComponent,
+    SingleNewsComponent
   ],
   imports: [
     BrowserModule,

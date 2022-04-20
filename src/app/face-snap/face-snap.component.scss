@@ -1,18 +1,44 @@
+// .face-snap-component {
+//     box-sizing: border-box;
+//     width: 60%;
+//     margin: 20px auto;
+//     padding: 10px 30px;
+//     background-color: white;
+//     border-radius: 10px;
+//     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+// }
+
+// .face-snap-component-liked {
+//     background-color: rgba(lightgreen, 0.4);
+// }
+
+// .face-snap_date {
+//     font-size: 14px;
+//     opacity: 0.5;
+// }
 .face-snap-component {
     box-sizing: border-box;
-    width: 60%;
     margin: 20px auto;
     padding: 10px 30px;
     background-color: white;
     border-radius: 10px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    h2 {
+        margin-bottom: 0;
+    }
+    p {
+        font-weight: 300;
+        font-size: 16px;
+    }
 }
 
-.face-snap-component-liked {
-    background-color: rgba(lightgreen, 0.4);
+@media (max-width:768px ) {
+    .face-snap-component{
+        width: 80%;
+    }
 }
-
-.face-snap_date {
-    font-size: 14px;
-    opacity: 0.5;
+@media (min-width:768px ) {
+    .face-snap-component{
+        width: 50%;
+    }
 }

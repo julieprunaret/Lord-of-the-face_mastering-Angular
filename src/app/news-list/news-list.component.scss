@@ -1,0 +1,21 @@
+.container-news_display {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+@media (max-width:768px ) {
+    .container-news_display{
+        width: 90vw;
+    }
+}
+@media (min-width:768px ) {
+    .container-news_display{
+        width: 80vw;
+    }
+}
+
+app-news {
+    width: auto;
+}

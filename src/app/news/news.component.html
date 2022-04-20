@@ -1,0 +1,16 @@
+<div class="news-card">
+    <h3>{{ news.newsTitle }}</h3>
+    <div class="news-card_imgandlocation">
+        <img [src]="news.newsImageUrl" [alt]="news.newsTitle">
+        <p *ngIf="news.newsLocation" class="news-location">{{ news.newsLocation }}</p>
+    </div>
+    <p class="news-date">
+        {{ news.newsDate | date : 'dd MMMM, à HH:mm'}}
+    </p>
+    <p class="news-description">
+        {{ news.newsDescription }}
+    </p>
+    <app-button [buttonStyle]="'simple-button'"
+                [buttonText]="'Lire l\'actualité'"
+                (click)="onNews()"></app-button>
+</div>

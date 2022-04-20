@@ -1,0 +1,12 @@
+<div class="single-face-header">
+    <app-button [buttonStyle]="'ghost-button'"
+    [buttonText]="'Retour'"
+    (click)="onBack()"></app-button>
+</div>
+<div class="face-snap-component">
+    <h2>{{ news.newsTitle | uppercase }}</h2>
+    <img [src]="news.newsImageUrl" [alt]="news.newsTitle">
+    <p  class="face-snap_date">mis en ligne le {{ news.newsDate | date: 'dd MMMM, à HH:mm' }}</p>
+    <p>{{ news.newsDescription }}</p>
+    <p *ngIf="news.newsLocation">{{ news.newsLocation | titlecase }}</p>
+</div>
