@@ -13,11 +13,11 @@ export class FaceSnapListComponent implements OnInit {
   faceSnaps!: FaceSnap[];
 
   constructor(
-    private FaceSnapsService: FaceSnapsService
+    private faceSnapsService: FaceSnapsService
   ) { }
 
   ngOnInit(): void {
-    this.faceSnaps = this.FaceSnapsService.getAllFaceSnaps(); // on récupère la méthode de face-snap.service pour accéder aux données
+    this.faceSnaps = this.faceSnapsService.getAllFaceSnaps(); // on récupère la méthode de face-snap.service pour accéder aux données. Les faceSnaps sont donc ce qui est récupérer dans la méthode getAllFaceSnaps de FaceSnapsService.
   }
 
 }

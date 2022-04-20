@@ -1,0 +1,16 @@
+<app-button [buttonStyle]="'ghost-button'"
+            [buttonText]="'Retour'"
+            (click)="onBack()"></app-button>
+<div class="face-snap-component" [ngClass]="{'face-snap-component-liked': buttonText === 'Dislike'}">
+    <h2>{{ faceSnap.title | uppercase }}</h2>
+    <img [src]="faceSnap.imageUrl" [alt]="faceSnap.title">
+    <p  class="face-snap_date">mis en ligne le {{ faceSnap.creationDate | date: 'dd MMMM, à HH:mm' }}</p>
+    <p>{{ faceSnap.description }}</p>
+    <p *ngIf="faceSnap.location">{{ faceSnap.location | titlecase }}</p>
+    <app-button [buttonStyle]="buttonStyle"
+                [buttonText]="buttonText"
+                (click)="onSnap()"></app-button>
+    <p>
+        <img src="../assets/like.svg" alt="like" class="icon"><span [ngStyle]="{ color:'rgb(0,'+  faceSnap.snaps * 2 +', 0)' }">{{ faceSnap.snaps }}</span></p> 
+        <p>{{ 4346234.36 | number }}</p>
+</div>
