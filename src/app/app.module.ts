@@ -10,6 +10,7 @@ import { HeaderComponent } from './header/header.component';
 import { AppRoutingModule } from './app-routing.module';
 import { LandingPageComponent } from './landing-page/landing-page.component';
 import { ButtonComponent } from './button/button.component';
+import { SingleFaceSnapComponent } from './single-face-snap/single-face-snap.component';
 
 @NgModule({
   declarations: [
@@ -19,6 +20,7 @@ import { ButtonComponent } from './button/button.component';
     HeaderComponent,
     LandingPageComponent,
     ButtonComponent,
+    SingleFaceSnapComponent,
   ],
   imports: [
     BrowserModule,
