@@ -50,3 +50,18 @@ Start the server
 ## Table of Content
 ![tab](https://user-images.githubusercontent.com/87066549/164425361-7309d5d7-5d50-4cec-9a1b-4e01cf11e7e0.png)
 
+## Technologies
+
+- ANGULAR (typescript/html/scss)
+
+
+## Bonus
+Lottie ngx - 
+![72707-magic-edit](https://user-images.githubusercontent.com/87066549/164427564-aee3bf05-2e71-4bb2-8c83-81d432169349.gif)
+To install Lottie ngx for Angular :
+
+```bash
+  npm i lottie-web ng
+```
+
+for more details you can read the perfect readme of the situation : [ngxLottie](https://github.com/ngx-lottie/ngx-lottie#installation)
