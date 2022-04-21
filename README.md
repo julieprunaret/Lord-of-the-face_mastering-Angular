@@ -3,7 +3,7 @@
 ![gandalf](https://user-images.githubusercontent.com/87066549/164426478-3b4e9763-5310-4424-8c07-d5c257d94d10.png)
 
 ## The project : "Lord Of The Face"
-Project FaceSnaps rename "Lord Of The Face", custom with Lord Of The Ring 's references.
+Project FaceSnaps become "Lord Of The Face", customs with Lord Of The Ring 's references.
 OpenClassRoom's formation - 11h
 
 
