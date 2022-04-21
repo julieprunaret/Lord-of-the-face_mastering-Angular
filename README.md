@@ -1,7 +1,9 @@
 
 # Mastering ANGULAR | OpenClassroom 
-## The project
-Project FaceSnaps rename "Lord Of The Name", custom with Lord Of The Ring 's references.
+![gandalf](https://user-images.githubusercontent.com/87066549/164426478-3b4e9763-5310-4424-8c07-d5c257d94d10.png)
+
+## The project : "Lord Of The Face"
+Project FaceSnaps rename "Lord Of The Face", custom with Lord Of The Ring 's references.
 OpenClassRoom's formation - 11h
 
 
