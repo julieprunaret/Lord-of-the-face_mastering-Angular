@@ -3,20 +3,6 @@ Formation OpenClassRoom
 
 ## Installation
 
-Install Snapface with git and npm
-
-```bash
-  git clone https://github.com/julieprunaret/Snapface.git
-  cd Snapface
-  npm install
-```
-
-Run the project locally
-
-```bash
-  ng serve
-```
-
 >the project works with Angular
 
 To install Angular, if you haven't
@@ -29,3 +15,28 @@ To install Angular, if you haven't
   npm install -g @angular/cli
 ```
 
+## Run Locally
+
+Clone the project
+
+```bash
+  git clone https://link-to-project
+```
+
+Go to the project directory
+
+```bash
+  cd my-project
+```
+
+Install dependencies
+
+```bash
+  npm install
+```
+
+Start the server
+
+```bash
+  npm run start
+```
