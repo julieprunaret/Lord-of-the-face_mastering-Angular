@@ -30,13 +30,13 @@ To install Angular, if you haven't
 Clone the project
 
 ```bash
-  git clone https://github.com/julieprunaret/Lord-of-the-face---mastering-Angular.git
+  git clone https://github.com/julieprunaret/Lord-of-the-face_mastering-Angular.git
 ```
 
 Go to the project directory
 
 ```bash
-  cd Lord-of-the-face---mastering-Angular
+  cd Lord-of-the-face_mastering-Angular
 ```
 
 Install dependencies
