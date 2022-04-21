@@ -26,7 +26,7 @@ To install Angular, if you haven't
 Clone the project
 
 ```bash
-  git clone https://link-to-project
+  git clone https://github.com/julieprunaret/Lord-of-the-face---mastering-Angular.git
 ```
 
 Go to the project directory
