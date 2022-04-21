@@ -17,13 +17,13 @@ Run the project locally
   ng serve
 ```
 
-[ the project works with Angular ]
+>the project works with Angular
 
 To install Angular, if you haven't
-
+[The official documentation](https://angular.io/start)
   
 
-- [ ]  Install [Node.js](https://nodejs.org/en/) which includes [Node Package Manager](https://docs.npmjs.com/getting-started)
+- [ ]  Install [Node.js](https://nodejs.org/en/) which includes https://angular.io/starthttps://docs.npmjs.com/getting-started)
 - [ ]  Install the Angular CLI globally (or locally without  `-g` ):
 ```bash
   npm install -g @angular/cli
