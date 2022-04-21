@@ -64,7 +64,8 @@ or
 ## Bonus
 Lottie ngx
 
-> whati is Lottie ?
+> what is Lottie ?
+
 A Lottie is a JSON-based animation file format that enables designers to ship animations on any platform as easily as shipping static assets. They are small files that work on any device and can scale up or down without pixelation.
 More details on [the Official website](https://lottiefiles.com/what-is-lottie)
 
