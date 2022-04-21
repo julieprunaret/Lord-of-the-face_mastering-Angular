@@ -7,6 +7,10 @@ Project FaceSnaps become "Lord Of The Face", customs with Lord Of The Ring 's re
 OpenClassRoom's formation - 11h
 
 
+
+https://user-images.githubusercontent.com/87066549/164434132-f89f27a0-983e-4924-90c3-67c9f1f89790.mp4
+
+
 ## Installation
 
 >the project works with Angular
