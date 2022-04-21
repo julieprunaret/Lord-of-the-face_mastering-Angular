@@ -32,7 +32,7 @@ Clone the project
 Go to the project directory
 
 ```bash
-  cd my-project
+  cd Lord-of-the-face---mastering-Angular
 ```
 
 Install dependencies
@@ -45,6 +45,12 @@ Start the server
 
 ```bash
   npm run start
+```
+
+or 
+
+```bash
+  ng serve
 ```
 
 ## Table of Content
