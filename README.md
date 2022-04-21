@@ -57,7 +57,9 @@ Start the server
 
 ## Bonus
 Lottie ngx - 
+
 ![72707-magic-edit](https://user-images.githubusercontent.com/87066549/164427564-aee3bf05-2e71-4bb2-8c83-81d432169349.gif)
+
 To install Lottie ngx for Angular :
 
 ```bash
