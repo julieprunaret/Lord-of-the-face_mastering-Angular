@@ -1,5 +1,9 @@
-# Snapface
-Formation OpenClassRoom
+
+# Mastering ANGULAR | OpenClassroom 
+## The project
+Project FaceSnaps rename "Lord Of The Name", custom with Lord Of The Ring 's references.
+OpenClassRoom's formation - 11h
+
 
 ## Installation
 
@@ -40,3 +44,7 @@ Start the server
 ```bash
   npm run start
 ```
+
+## Table of Content
+![tab](https://user-images.githubusercontent.com/87066549/164425361-7309d5d7-5d50-4cec-9a1b-4e01cf11e7e0.png)
+
