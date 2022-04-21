@@ -67,3 +67,7 @@ To install Lottie ngx for Angular :
 ```
 
 for more details you can read the perfect readme of the situation : [ngxLottie](https://github.com/ngx-lottie/ngx-lottie#installation)
+
+## Author
+
+[Hello there ! I'm Julie :)](https://github.com/julieprunaret/)
