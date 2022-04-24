@@ -14,6 +14,12 @@ import { SingleFaceSnapComponent } from './single-face-snap/single-face-snap.com
 import { NewsComponent } from './news/news.component';
 import { NewsListComponent } from './news-list/news-list.component';
 import { SingleNewsComponent } from './single-news/single-news.component';
+import { LottieModule } from 'ngx-lottie';
+import player from 'lottie-web';
+
+export function playerFactory() {
+  return player;
+}
 
 @NgModule({
   declarations: [
@@ -26,11 +32,13 @@ import { SingleNewsComponent } from './single-news/single-news.component';
     SingleFaceSnapComponent,
     NewsComponent,
     NewsListComponent,
-    SingleNewsComponent
+    SingleNewsComponent,
+    
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    LottieModule.forRoot({ player: playerFactory })
   ],
   providers: [
     { provide: LOCALE_ID, useValue: 'fr-FR'}
@@ -42,3 +50,4 @@ export class AppModule {
     registerLocaleData(fr.default);
   }
 }
+

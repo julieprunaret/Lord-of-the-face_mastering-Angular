@@ -8,27 +8,27 @@ button {
 .ghost-button {
     button {
         background-color: white;
-        border: 1px solid salmon;
-        color: salmon;
+        border: 1px solid #c3bdb5  ;
+        color: #c3bdb5  ;
         }
     button:hover {
-        background-color: salmon;
+        background-color: #c3bdb5  ;
         color: white;
         border: none;
-        border: 1px solid salmon;
+        border: 1px solid #c3bdb5  ;
     }
 }
 
 .simple-button {
     button {
-        background-color: salmon;
-        color: white;
-        border: 1px solid white;
+        background-color: white;
+        color: #BF9D50 ;
+        border: 1px solid #BF9D50 ;
     }
     button:hover {
-        background-color: white;
-        color: salmon;
-        border: 1px solid salmon;
+        background-color: #BF9D50 ;
+        color: white;
+        border: 1px solid white;
     }
 }
 
